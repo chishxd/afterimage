@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_reset_loop",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_reset_loop",
+  "parent":{
+    "name":"Afterimage",
+    "path":"Afterimage.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

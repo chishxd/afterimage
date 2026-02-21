@@ -1,0 +1,1 @@
+my_door = door_level1;
