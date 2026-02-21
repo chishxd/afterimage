@@ -1,4 +1,3 @@
-// --- 1. Get Player Input ---
 var _key_right = keyboard_check(ord("D"));
 var _key_left = keyboard_check(ord("A"));
 var _key_up = keyboard_check(ord("W"));
@@ -66,3 +65,17 @@ var _current_state = {
 };
 
 array_push(record_data, _current_state);
+
+
+var _nearest_door = instance_nearest(x, y, oDoor);
+
+if (_nearest_door != noone) {
+    if (_nearest_door.is_open == true && distance_to_object(_nearest_door) < 5) {
+        
+        if (instance_exists(oGameManager)) {
+            oGameManager.game_won = true;
+        }
+        
+        visible = false; 
+    }
+}

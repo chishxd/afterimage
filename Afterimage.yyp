@@ -31,6 +31,7 @@
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"scr_reset_loop","path":"scripts/scr_reset_loop/scr_reset_loop.yy",},},
+    {"id":{"name":"snd_timer","path":"sounds/snd_timer/snd_timer.yy",},},
     {"id":{"name":"sDoor","path":"sprites/sDoor/sDoor.yy",},},
     {"id":{"name":"sPlates","path":"sprites/sPlates/sPlates.yy",},},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
